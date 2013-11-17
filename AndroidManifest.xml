@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sco.onlineanket"
+    android:versionCode="1"
+    android:versionName="1.0" >
+	<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.sco.onlineanket.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AnaMenu"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.sco.onlineanket.AnaMenu" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>      
+        <activity android:name=".AnketCevapla"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.sco.onlineanket.AnketCevapla" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>          
+        <activity android:name=".AnketGuncelleSil"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.sco.onlineanket.AnketGuncelleSil" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity> 
+        <activity android:name=".Anketim"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.sco.onlineanket.Anketim" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity> 
+        <activity android:name=".AnketOlustur"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.sco.onlineanket.AnketOlustur" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>         
+        <activity android:name=".KullaniciGirisi"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.sco.onlineanket.KullaniciGirisi" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>      
+        <activity android:name=".Menu"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.sco.onlineanket.Menu" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>   
+        <activity android:name=".ParolamiUnuttum"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.sco.onlineanket.ParolamiUnuttum" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+        <activity android:name=".Sonuclar"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.sco.onlineanket.Sonuclar" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity> 
+        <activity android:name=".SoruEkle"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.sco.onlineanket.SoruEkle" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Sorular"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.sco.onlineanket.Sorular" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SoruSilGuncelle"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.sco.onlineanket.SoruSilGuncelle" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Tebrikler"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.sco.onlineanket.Tebrikler" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".UyeOl"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.sco.onlineanket.UyeOl" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+    </application>
+
+</manifest>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Online Anket</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="KGirisi">Kullanıcı Girişi</string>
+    <string name="UyeOl">Üye Ol</string>
+    <string name="AnketCevapla">Anket Cevapla</string>
+    <string name="Giris">Giriş</string>
+    <string name="ParolamiUnuttum">Parolamı Unuttum</string>
+    <string name="ParolamiAnimsa">Parolamı Anımsa</string>    
+    <string name="Ara">Ara</string>
+    <string name="AnketOlustur">Anket Oluştur</string>
+    <string name="Anketlerim">Anketlerim</string>
+    <string name="SoruEkle">Soru Ekle</string>
+    <string name="SoruSil">Soru Sil</string>
+    <string name="AnketSonucleri">Anket Sonucları</string>
+    <string name="Cikis">Çıkış</string>    
+    <string name="GuncelleSil">Güncelle/Sil</string>
+    <string name="Menu">Geri Dön</string>
+    <string name="Guncelle">Güncelle</string>
+    <string name="Olustur">Oluştur</string>
+    <string name="Ekle">Ekle</string>
+    <string name="Sonraki">Sonraki</string>
+    <string name="Kapat">Programı Kapat</string>
+    <string name="KullaniciAdi">Kullanıcı Adı</string>
+    <string name="Parola">Parola</string>
+    <string name="KGirisiEkran">Kullanıcı Girişi</string>
+    <string name="PAnimsaEkran">Parolamı Unuttum</string>
+    <string name="Eposta">E-Posta</string>
+    <string name="AnketKodu">Anket Kodu </string>
+    <string name="SistemdekiAnketler">Sistemdeki Anketler </string>
+    <string name="AnketGuncelleSil">Anket Güncelle /Sil </string>
+    <string name="Baslik">Başlık </string>
+    <string name="Sil">Sil </string>
+    <string name="Anket">Anket </string>
+    <string name="Soru">Soru </string>
+    <string name="A">A </string>
+    <string name="B">B </string>
+    <string name="C">C </string>
+    <string name="D">D </string>
+    <string name="E">E </string>
+    <string name="SoruGuncelleSil">Soru Sil </string>
+    <string name="Goruntule">Sonuçları Görüntüle</string>
+    <string name="AnketSonuclari">Anket Sonuçları</string>
+    <string name="SoruAlani">Soru Alanı</string>
+    <string name="Cevaplar">Cevaplar</string>
+    <string name="AnaMenu">Ana Menü</string>
+    <string name="Tebrikler">Anketimizi Cevapladığınız İçin Teşekkür Ederiz.</string>
+    <string name="UygulamaAdi">Online Anket Uygulaması</string>
+    <string name="Creator">Çoşkun SÜMEN</string>
+    <string name="Creator2">Seyfettin KAHVECİ</string>
+    <string name="Creator3">Ogün Sezai BAYKAL</string>
+    <string name="Copyright">2013 ©</string>
+
+</resources>
